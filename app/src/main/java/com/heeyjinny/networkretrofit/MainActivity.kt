@@ -2,14 +2,12 @@ package com.heeyjinny.networkretrofit
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.telecom.Call
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.heeyjinny.networkretrofit.databinding.ActivityMainBinding
 import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 import retrofit2.http.GET
 
 /**깃허브 사용자 정보를 가져오는 앱 개발**/
