@@ -36,6 +36,9 @@ import com.heeyjinny.networkretrofit.databinding.ActivityMainBinding
 //RepositoryItem의 배열을 상속받는 형태로 생성됨
 //실제 데이터 구조는 RepositoryItem클래스에 생성됨
 
+//5
+//데이터를 출력할 화면 만들기
+//activity_main.xml, recyclerView사용
 
 class MainActivity : AppCompatActivity() {
 
@@ -46,7 +49,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-
-
     }//onCreate
+
 }//MainActivity
+
